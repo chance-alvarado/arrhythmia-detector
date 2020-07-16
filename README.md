@@ -1,6 +1,6 @@
 # arrhythmia-detector
 
-Training a dense neural network on ECG signals to detect cardiac arrhythmias.
+Training a deep neural network on ECG signals to detect cardiac arrhythmias.
 
 **View the properly rendered notebook with *nbviewer* [here](https://nbviewer.jupyter.org/github/chance-alvarado/dementia-classifier/blob/master/arrhythmia_detector.ipynb).**
 
