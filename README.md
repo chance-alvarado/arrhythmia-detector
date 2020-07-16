@@ -2,7 +2,7 @@
 
 Training a deep neural network on ECG signals to detect cardiac arrhythmias.
 
-**View the properly rendered notebook with *nbviewer* [here](https://github.com/chance-alvarado/arrhythmia-detector/blob/master/arrhythmia_detector.ipynb).**
+**View the properly rendered notebook with *nbviewer* [here](https://nbviewer.jupyter.org/github/chance-alvarado/arrhythmia-detector/blob/master/arrhythmia_detector.ipynb).**
 
 ---
 
