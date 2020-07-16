@@ -86,6 +86,7 @@ The results of this analysis (i.e. the model, plots, and metric) have been inclu
   
 - Run `arrhythmia_detector.ipynb` in your preferred notebook viewer - [Jupyter Notebook](https://jupyter-notebook.readthedocs.io/) is reccomended. 
  
+- **Note:** Training machine learning models is an inherently stochastic process. Due to this, results may vary slightly.
 ---
 
 ## Data
