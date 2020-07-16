@@ -8,7 +8,7 @@ Training a dense neural network on ECG signals to detect cardiac arrhythmias.
 
 ## Introduction
 
-Cardiac arrhythmias occur when the electrical impulses of the heart don't function properly. These irregular impulses may manifest themselves as anxiety, fatigue, and dizziness. While some cases of cardiac arrhythmias are relatively harmless, others are indicative of learger issues including high blood pressure, diabetes, and heart attacks. An electrocardiogram (ECG or EKG) is a tool medical professionals can use to visualize the electrical workings of the heart. Analsyis of these ECG signals accomponied by other testing measures allows for the diagnosis of cardiac problems such as arrhythmias. Quickly and accurately detecting cardiac arrhythmias through analyzing ECG signals would allow healthcare professionals to better apply appropriate intervention techniques
+Cardiac arrhythmias occur when the electrical impulses of the heart don't function properly. These irregular impulses may manifest themselves as anxiety, fatigue, and dizziness. While some cases of cardiac arrhythmias are relatively harmless, others are indicative of larger issues including high blood pressure, diabetes, and heart attacks. An electrocardiogram (ECG or EKG) is a tool medical professionals can use to visualize the electrical workings of the heart. Analysis of these ECG signals accompanied by other testing measures allows for the diagnosis of cardiac problems such as arrhythmias. Quickly and accurately detecting cardiac arrhythmias through analyzing ECG signals would allow healthcare professionals to better apply appropriate intervention techniques
 
 ---
 
@@ -20,8 +20,7 @@ This project emphasizes the following skills:
 - Process large, high-dimensionality datasets for machine learning applications using *Pandas* and *Numpy*.
 - Develop and tune a deep neural network on a validation set suing *TensorFlow's* *Keras*.
 - Evaluate the effectiveness of a neural network using *Scikit-Learn* and *Keras*.
-- Providing instructions for easily reproducable results.
-
+- Providing instructions for easily reproducible results.
 
 ---
 
@@ -41,14 +40,13 @@ Requirement | Version
 [TensorFlow](https://www.tensorflow.org/) | 2.3.0
 [Keras](https://keras.io/) | 2.4.3
 
-
 Installation instructions for these packages can be found in their respective documentation.
 
 ---
 
-## Project Struture/Replicating Results
+## Project Structure/Replicating Results
 
-This project has the folowing architecture:
+This project has the following architecture:
 ```
 arrhythmia-detector
 ├─ arrhythmia_detector.ipynb
@@ -60,7 +58,7 @@ arrhythmia-detector
    └─ plots
 ```
 
-The results of this analysis (i.e. the model, plots, and metric) have been included for ease of use. However, all scripts neccessary to replicate the results have been included. To validate the results of this analysis do the following:
+The results of this analysis (i.e. the model, plots, and metric) have been included for ease of use. However, all scripts necessary to replicate the results have been included. To validate the results of this analysis do the following:
 
 - Remove `best_model.h5` from the `model` folder
 - Remove all plots from the `plots` folder
@@ -92,7 +90,7 @@ The results of this analysis (i.e. the model, plots, and metric) have been inclu
 
 ## Data
 
-The foundation of this analysis is built on data collected and processed by the Beth Israel Deaconess Medical Center and MIT. Their MIT-BIH Arrhythmia database has acted as the foundation for many influential cardiac arrhythmia studies.
+The foundation of this analysis is built on data collected and processed by the *Beth Israel Deaconess Medical Center* and *MIT*. Their MIT-BIH Arrhythmia database has acted as the foundation for many influential cardiac arrhythmia studies.
 
 The data used in this analysis is divided among two csv files:
 
